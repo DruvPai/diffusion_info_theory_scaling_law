@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+
+# Throwaway caches
+.pytest_cache
+.ruff_cache
+.DS_Store
+
+# Script outputs
+*.png
+*.csv
+.hf-cache/
+
+# Run outputs: checkpoints, samples, metrics, reports
+experiments/
+

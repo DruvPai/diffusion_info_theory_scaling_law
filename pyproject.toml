@@ -1,0 +1,26 @@
+[project]
+name = "itg"
+version = "0.2.0"
+description = "Model information of diffusion models and its scaling law"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "clean-fid>=0.1.35",
+    "matplotlib>=3.10.8",
+    "numpy>=2.0",
+    "pandas>=2.2.0",
+    "pillow>=12.1.1",
+    "scipy>=1.11,<1.17",
+    "torch>=2.12.1",
+    "torchvision>=0.27.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.15.2",
+    "ty>=0.0.18",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
