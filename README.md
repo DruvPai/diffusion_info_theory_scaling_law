@@ -3,8 +3,10 @@
 Code for the paper
 
 > **Information-Theoretic Scaling Laws for Generative Diffusion Training**
+
 > Druv Pai, Dejan Stančević, Yi Ma, Luca Ambrogioni
-> arXiv: *coming soon*
+
+> [arXiv](https://arxiv.org/abs/2610.33337)
 
 The paper studies *model information*, the mutual information between a
 randomly trained diffusion model and a sample it generates, i.e. how much a
